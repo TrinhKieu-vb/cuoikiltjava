@@ -1,0 +1,58 @@
+2026-06-21 18:17:18.401 [main] INFO  org.example.server.Server - Server initialized on port 5555
+2026-06-21 18:17:18.409 [main] INFO  org.example.server.Server - Server starting on port 5555
+2026-06-21 18:17:27.108 [main] INFO  org.example.server.Server - New client connected from /127.0.0.1
+2026-06-21 18:17:27.109 [pool-1-thread-1] INFO  org.example.server.ClientHandler - ClientHandler started for /127.0.0.1
+2026-06-21 18:17:27.110 [JavaFX Application Thread] INFO  org.example.client.NetworkClient - Connected to server at localhost:5555
+2026-06-21 18:17:27.113 [JavaFX Application Thread] INFO  org.example.client.MainApp - Connected to server successfully
+2026-06-21 18:17:37.304 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=AUTH, method=LOGIN
+2026-06-21 18:17:38.030 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-21 18:17:38.121 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-21 18:17:38.308 [pool-1-thread-1] INFO  org.example.server.ServerService - User authenticated: admin
+2026-06-21 18:17:38.309 [pool-1-thread-1] INFO  org.example.server.ServerService - Session created for user: admin
+2026-06-21 18:17:38.309 [pool-1-thread-1] INFO  org.example.server.ClientHandler - User logged in: admin
+2026-06-21 18:17:38.318 [JavaFX Application Thread] INFO  org.example.client.ClientService - User logged in: admin
+2026-06-21 18:17:38.318 [JavaFX Application Thread] INFO  o.example.controller.LoginController - Login successful for user: admin
+2026-06-21 18:17:38.371 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=DASHBOARD, method=GET_STATS
+2026-06-21 18:17:38.390 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-21 18:17:38.428 [pool-1-thread-1] INFO  org.example.dao.ProductDAO - Retrieved 8 products
+2026-06-21 18:17:38.452 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-21 18:17:38.481 [pool-1-thread-1] INFO  org.example.dao.CustomerDAO - Retrieved 12 customers
+2026-06-21 18:17:38.503 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-21 18:17:38.524 [pool-1-thread-1] INFO  org.example.dao.OrderDAO - Retrieved 6 orders
+2026-06-21 18:17:38.552 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-21 18:17:38.555 [pool-1-thread-1] INFO  org.example.dao.CategoryDAO - Retrieved 4 categories
+2026-06-21 18:17:38.578 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-21 18:17:38.581 [pool-1-thread-1] INFO  org.example.dao.OrderDAO - Retrieved 6 orders
+2026-06-21 18:17:38.589 [pool-1-thread-1] INFO  org.example.server.ServerService - Dashboard statistics retrieved
+2026-06-21 18:17:38.606 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=PRODUCT, method=GET_ALL
+2026-06-21 18:17:38.626 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-21 18:17:38.629 [pool-1-thread-1] INFO  org.example.dao.ProductDAO - Retrieved 8 products
+2026-06-21 18:17:41.016 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=CUSTOMER, method=GET_ALL
+2026-06-21 18:17:41.032 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-21 18:17:41.034 [pool-1-thread-1] INFO  org.example.dao.CustomerDAO - Retrieved 12 customers
+2026-06-21 18:21:04.965 [pool-1-thread-1] ERROR org.example.server.ClientHandler - IO Error handling client
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:318)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1093)
+	at java.base/java.io.ObjectInputStream$PeekInputStream.peek(ObjectInputStream.java:2893)
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.peek(ObjectInputStream.java:3220)
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:3230)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1713)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:540)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:498)
+	at org.example.server.ClientHandler.run(ClientHandler.java:36)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-06-21 18:21:04.971 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Client connection closed
+2026-06-21 18:21:06.895 [main] INFO  org.example.server.Server - New client connected from /127.0.0.1
+2026-06-21 18:21:06.896 [pool-1-thread-2] INFO  org.example.server.ClientHandler - ClientHandler started for /127.0.0.1
+2026-06-21 18:21:06.898 [JavaFX Application Thread] INFO  org.example.client.NetworkClient - Connected to server at localhost:5555
+2026-06-21 18:21:06.900 [JavaFX Application Thread] INFO  org.example.client.MainApp - Connected to server successfully
+2026-06-21 23:27:16.346 [Thread-0] INFO  org.example.server.Server - Server shutting down...
+2026-06-21 23:27:16.348 [Thread-0] INFO  org.example.server.Server - Server shutdown complete
+2026-06-21 23:27:16.348 [main] INFO  org.example.server.Server - Server shutting down...
+2026-06-21 23:27:16.348 [main] INFO  org.example.server.Server - Server shutdown complete

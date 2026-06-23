@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.controller.MainController"
+            stylesheets="@../styles.css"
+            style="-fx-background-color: #F8FAFB;">
+
+    <!-- Left Sidebar -->
+    <left>
+        <VBox prefWidth="255" styleClass="sidebar" spacing="10">
+            <!-- Sidebar Header -->
+            <VBox alignment="CENTER_LEFT" spacing="5" styleClass="sidebar-header">
+                <HBox spacing="10" alignment="CENTER_LEFT">
+                    <Label text="🏪" style="-fx-font-size: 26;"/>
+                    <Label text="KT SHOP" styleClass="sidebar-logo-text"/>
+                </HBox>
+                <Label text="Hệ thống quản lý đồ uống và món tráng miệng" styleClass="sidebar-subtitle-text"/>
+            </VBox>
+            
+            <Separator styleClass="sidebar-separator"/>
+
+            <!-- Sidebar Navigation Links -->
+            <ScrollPane fitToWidth="true" hbarPolicy="NEVER" vbarPolicy="NEVER" VBox.vgrow="ALWAYS" style="-fx-background: transparent; -fx-background-color: transparent; -fx-padding: 0;">
+                <VBox spacing="2" style="-fx-background-color: transparent;">
+                    <Button fx:id="btnDashboard" text="📊   Dashboard" onAction="#showDashboard" styleClass="sidebar-btn, active"/>
+                    <Button fx:id="btnSell" text="🛒   Bán Hàng" onAction="#showOrderForm" styleClass="sidebar-btn"/>
+                    <Button fx:id="btnProducts" text="📦   Sản Phẩm" onAction="#showProductList" styleClass="sidebar-btn"/>
+                    <Button fx:id="btnCustomers" text="👥   Khách Hàng" onAction="#showCustomerList" styleClass="sidebar-btn"/>
+                    <Button fx:id="btnOrders" text="📋   Hóa Đơn" onAction="#showOrderList" styleClass="sidebar-btn"/>
+                    <Button fx:id="btnCategories" text="📂   Danh Mục" onAction="#showCategoryList" styleClass="sidebar-btn"/>
+                    <Button fx:id="btnUsers" text="👤   Người Dùng" onAction="#showUserList" styleClass="sidebar-btn"/>
+                    <Button fx:id="btnReports" text="📈   Báo Cáo" onAction="#handleExport" styleClass="sidebar-btn"/>
+                </VBox>
+            </ScrollPane>
+
+            <Separator styleClass="sidebar-separator"/>
+
+            <!-- Sidebar Footer (User Info Card) -->
+            <VBox styleClass="sidebar-footer-card" spacing="12">
+                <VBox spacing="3">
+                    <Label fx:id="sidebarUsername" text="Tên tài khoản" styleClass="sidebar-user-name"/>
+                    <Label fx:id="sidebarRole" text="Vai trò" styleClass="sidebar-user-role"/>
+                </VBox>
+                <Button text="🚪 Đăng xuất" onAction="#handleLogout" styleClass="btn-logout" maxWidth="Infinity"/>
+            </VBox>
+        </VBox>
+    </left>
+
+    <!-- Main Content Area -->
+    <center>
+        <VBox VBox.vgrow="ALWAYS" style="-fx-background-color: #F8FAFB;">
+            <!-- Top App Bar -->
+            <HBox alignment="CENTER_LEFT" styleClass="top-bar">
+                <Label fx:id="pageTitle" text="Tổng quan" styleClass="page-title"/>
+                <Region HBox.hgrow="ALWAYS"/>
+                <HBox alignment="CENTER_RIGHT" spacing="15">
+                    <Label fx:id="userLabel" text="user@shop.com" styleClass="top-user-label"/>
+                </HBox>
+            </HBox>
+
+            <!-- Page Content Container -->
+            <StackPane fx:id="contentPane" VBox.vgrow="ALWAYS" style="-fx-background-color: #F8FAFB;">
+                <!-- Content will be injected dynamically -->
+            </StackPane>
+        </VBox>
+    </center>
+
+</BorderPane>

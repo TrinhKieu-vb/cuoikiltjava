@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.controller.LoginController"
+            stylesheets="@../styles.css"
+            style="-fx-background-color: linear-gradient(to bottom right, #E5F6F6, #F8FAFB, #FFFFFF); -fx-font-family: 'Segoe UI', Arial;">
+
+    <center>
+        <StackPane>
+            <VBox alignment="CENTER" spacing="0">
+                <!-- Main Card Container -->
+                <VBox alignment="TOP_CENTER" spacing="25" styleClass="form-container" style="-fx-max-width: 420; -fx-padding: 40 40 40 40;">
+
+                    <!-- Header Branding -->
+                    <VBox alignment="CENTER" spacing="8">
+                        <Label text="🏪" style="-fx-font-size: 40;"/>
+                        <Label text="KT SHOP" style="-fx-font-size: 24; -fx-font-weight: bold; -fx-text-fill: #0E98A0; -fx-letter-spacing: 1px;"/>
+                        <Label text="Hệ thống quản lý đồ uống và món tráng miệng" style="-fx-font-size: 13; -fx-text-fill: #6B7280;"/>
+                    </VBox>
+
+                    <!-- Form Content -->
+                    <VBox spacing="15" alignment="CENTER_LEFT">
+                        <!-- Username Field -->
+                        <VBox spacing="5">
+                            <Label text="Tên đăng nhập" styleClass="form-label"/>
+                            <TextField fx:id="usernameField" promptText="Nhập tên đăng nhập (ví dụ: admin)"/>
+                        </VBox>
+
+                        <!-- Password Field -->
+                        <VBox spacing="5">
+                            <Label text="Mật khẩu" styleClass="form-label"/>
+                            <PasswordField fx:id="passwordField" promptText="Nhập mật khẩu (ví dụ: admin)"/>
+                        </VBox>
+
+                        <!-- Error Label -->
+                        <Label fx:id="errorLabel" text="" style="-fx-font-size: 12; -fx-text-fill: #EF4444; -fx-padding: 2 0 0 0;"/>
+                    </VBox>
+
+                    <!-- Login Button -->
+                    <Button fx:id="loginButton" text="ĐĂNG NHẬP" styleClass="btn, btn-primary" maxWidth="Infinity" style="-fx-font-size: 14; -fx-padding: 12 20;"/>
+
+                </VBox>
+            </VBox>
+        </StackPane>
+    </center>
+
+</BorderPane>

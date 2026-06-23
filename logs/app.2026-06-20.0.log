@@ -1,0 +1,368 @@
+2026-06-20 05:01:00.546 [JavaFX Application Thread] INFO  org.example.client.NetworkClient - Connected to server at localhost:5555
+2026-06-20 05:01:00.552 [JavaFX Application Thread] INFO  org.example.client.MainApp - Connected to server successfully
+2026-06-20 05:01:10.014 [JavaFX Application Thread] INFO  org.example.client.ClientService - User logged in: admin
+2026-06-20 05:01:10.014 [JavaFX Application Thread] INFO  org.example.client.LoginController - Login successful for user: admin
+2026-06-20 05:16:21.636 [JavaFX Application Thread] INFO  org.example.util.ExportUtil - Customers exported to CSV: C:\Users\ADMIN\AppData\Roaming\Microsoft\Windows\Network Shortcuts\customers_export.csv
+2026-06-20 05:22:16.614 [JavaFX Application Thread] INFO  org.example.client.NetworkClient - Connected to server at localhost:5555
+2026-06-20 05:22:16.615 [JavaFX Application Thread] INFO  org.example.client.MainApp - Connected to server successfully
+2026-06-20 05:22:26.728 [JavaFX Application Thread] INFO  org.example.client.ClientService - User logged in: admin
+2026-06-20 05:22:26.728 [JavaFX Application Thread] INFO  org.example.client.LoginController - Login successful for user: admin
+2026-06-20 08:21:45.146 [main] INFO  org.example.server.Server - Server initialized on port 5555
+2026-06-20 08:21:45.148 [main] INFO  org.example.server.Server - Server starting on port 5555
+2026-06-20 08:23:56.087 [main] INFO  org.example.server.Server - New client connected from /127.0.0.1
+2026-06-20 08:23:56.103 [pool-1-thread-1] INFO  org.example.server.ClientHandler - ClientHandler started for /127.0.0.1
+2026-06-20 08:23:56.104 [JavaFX Application Thread] INFO  org.example.client.NetworkClient - Connected to server at localhost:5555
+2026-06-20 08:23:56.105 [JavaFX Application Thread] INFO  org.example.client.MainApp - Connected to server successfully
+2026-06-20 08:28:12.742 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=AUTH, method=LOGIN
+2026-06-20 08:28:13.671 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 08:28:13.820 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 08:28:14.031 [pool-1-thread-1] INFO  org.example.server.ServerService - User authenticated: admin
+2026-06-20 08:28:14.032 [pool-1-thread-1] INFO  org.example.server.ServerService - Session created for user: admin
+2026-06-20 08:28:14.032 [pool-1-thread-1] INFO  org.example.server.ClientHandler - User logged in: admin
+2026-06-20 08:28:14.071 [JavaFX Application Thread] INFO  org.example.client.ClientService - User logged in: admin
+2026-06-20 08:28:14.071 [JavaFX Application Thread] INFO  org.example.client.LoginController - Login successful for user: admin
+2026-06-20 08:28:14.466 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=DASHBOARD, method=GET_STATS
+2026-06-20 08:28:14.498 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 08:28:14.539 [pool-1-thread-1] INFO  org.example.dao.ProductDAO - Retrieved 8 products
+2026-06-20 08:28:14.564 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 08:28:14.597 [pool-1-thread-1] INFO  org.example.dao.CustomerDAO - Retrieved 6 customers
+2026-06-20 08:28:14.621 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 08:28:14.638 [pool-1-thread-1] INFO  org.example.dao.OrderDAO - Retrieved 6 orders
+2026-06-20 08:28:14.659 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 08:28:14.663 [pool-1-thread-1] INFO  org.example.dao.CategoryDAO - Retrieved 4 categories
+2026-06-20 08:28:14.680 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 08:28:14.683 [pool-1-thread-1] INFO  org.example.dao.OrderDAO - Retrieved 6 orders
+2026-06-20 08:28:14.690 [pool-1-thread-1] INFO  org.example.server.ServerService - Dashboard statistics retrieved
+2026-06-20 08:28:14.706 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=PRODUCT, method=GET_ALL
+2026-06-20 08:28:14.722 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 08:28:14.725 [pool-1-thread-1] INFO  org.example.dao.ProductDAO - Retrieved 8 products
+2026-06-20 08:28:16.796 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=PRODUCT, method=GET_ALL
+2026-06-20 08:28:16.814 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 08:28:16.817 [pool-1-thread-1] INFO  org.example.dao.ProductDAO - Retrieved 8 products
+2026-06-20 08:28:16.819 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=CATEGORY, method=GET_ALL
+2026-06-20 08:28:16.837 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 08:28:16.839 [pool-1-thread-1] INFO  org.example.dao.CategoryDAO - Retrieved 4 categories
+2026-06-20 08:28:18.068 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=CUSTOMER, method=GET_ALL
+2026-06-20 08:28:18.081 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 08:28:18.082 [pool-1-thread-1] INFO  org.example.dao.CustomerDAO - Retrieved 6 customers
+2026-06-20 08:28:20.006 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=CUSTOMER, method=GET_ALL
+2026-06-20 08:28:20.018 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 08:28:20.020 [pool-1-thread-1] INFO  org.example.dao.CustomerDAO - Retrieved 6 customers
+2026-06-20 08:28:48.118 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=CUSTOMER, method=GET_ALL
+2026-06-20 08:28:48.138 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 08:28:48.141 [pool-1-thread-1] INFO  org.example.dao.CustomerDAO - Retrieved 6 customers
+2026-06-20 08:28:48.218 [JavaFX Application Thread] INFO  org.example.util.ExportUtil - Customers exported to CSV: D:\customers_export.csv
+2026-06-20 08:34:46.201 [JavaFX Application Thread] INFO  org.example.util.ImportUtil - Customers imported from CSV: D:\customers_export.csv
+2026-06-20 08:34:46.202 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=CUSTOMER, method=CREATE
+2026-06-20 08:34:46.224 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 08:34:46.242 [pool-1-thread-1] INFO  org.example.dao.CustomerDAO - Customer created: hahahah
+2026-06-20 08:34:46.245 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=CUSTOMER, method=CREATE
+2026-06-20 08:34:46.263 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 08:34:46.266 [pool-1-thread-1] INFO  org.example.dao.CustomerDAO - Customer created: hllooo
+2026-06-20 08:34:46.268 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=CUSTOMER, method=CREATE
+2026-06-20 08:34:46.286 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 08:34:46.290 [pool-1-thread-1] INFO  org.example.dao.CustomerDAO - Customer created: Lê Văn C
+2026-06-20 08:34:46.292 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=CUSTOMER, method=CREATE
+2026-06-20 08:34:46.309 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 08:34:46.313 [pool-1-thread-1] INFO  org.example.dao.CustomerDAO - Customer created: mimi
+2026-06-20 08:34:46.314 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=CUSTOMER, method=CREATE
+2026-06-20 08:34:46.330 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 08:34:46.334 [pool-1-thread-1] INFO  org.example.dao.CustomerDAO - Customer created: Nguyễn Văn A
+2026-06-20 08:34:46.335 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=CUSTOMER, method=CREATE
+2026-06-20 08:34:46.351 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 08:34:46.355 [pool-1-thread-1] INFO  org.example.dao.CustomerDAO - Customer created: Trần Thị B
+2026-06-20 08:34:50.517 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=PRODUCT, method=GET_ALL
+2026-06-20 08:34:50.531 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 08:34:50.533 [pool-1-thread-1] INFO  org.example.dao.ProductDAO - Retrieved 8 products
+2026-06-20 08:34:50.535 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=CATEGORY, method=GET_ALL
+2026-06-20 08:34:50.551 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 08:34:50.552 [pool-1-thread-1] INFO  org.example.dao.CategoryDAO - Retrieved 4 categories
+2026-06-20 08:34:50.740 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=PRODUCT, method=GET_ALL
+2026-06-20 08:34:50.759 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 08:34:50.761 [pool-1-thread-1] INFO  org.example.dao.ProductDAO - Retrieved 8 products
+2026-06-20 08:34:50.764 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=CATEGORY, method=GET_ALL
+2026-06-20 08:34:50.779 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 08:34:50.780 [pool-1-thread-1] INFO  org.example.dao.CategoryDAO - Retrieved 4 categories
+2026-06-20 08:34:53.003 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=CUSTOMER, method=GET_ALL
+2026-06-20 08:34:53.094 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 08:34:53.096 [pool-1-thread-1] INFO  org.example.dao.CustomerDAO - Retrieved 12 customers
+2026-06-20 08:34:53.231 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=CUSTOMER, method=GET_ALL
+2026-06-20 08:34:53.376 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 08:34:53.378 [pool-1-thread-1] INFO  org.example.dao.CustomerDAO - Retrieved 12 customers
+2026-06-20 08:53:26.983 [JavaFX Application Thread] INFO  org.example.client.NetworkClient - Disconnected from server
+2026-06-20 08:53:26.986 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Client disconnected: /127.0.0.1
+2026-06-20 08:53:26.991 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Client connection closed
+2026-06-20 08:53:27.078 [main] INFO  org.example.server.Server - New client connected from /127.0.0.1
+2026-06-20 08:53:27.079 [pool-1-thread-2] INFO  org.example.server.ClientHandler - ClientHandler started for /127.0.0.1
+2026-06-20 08:53:27.079 [JavaFX Application Thread] INFO  org.example.client.NetworkClient - Connected to server at localhost:5555
+2026-06-20 08:53:27.079 [JavaFX Application Thread] INFO  org.example.client.MainController - User logged out, returned to login screen
+2026-06-20 08:53:39.868 [pool-1-thread-2] INFO  org.example.server.ClientHandler - Processing request: action=AUTH, method=LOGIN
+2026-06-20 08:53:39.920 [pool-1-thread-2] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 08:53:40.039 [pool-1-thread-2] INFO  org.example.server.ServerService - User authenticated: admin
+2026-06-20 08:53:40.039 [pool-1-thread-2] INFO  org.example.server.ServerService - Session created for user: admin
+2026-06-20 08:53:40.039 [pool-1-thread-2] INFO  org.example.server.ClientHandler - User logged in: admin
+2026-06-20 08:53:40.040 [JavaFX Application Thread] INFO  org.example.client.ClientService - User logged in: admin
+2026-06-20 08:53:40.041 [JavaFX Application Thread] INFO  org.example.client.LoginController - Login successful for user: admin
+2026-06-20 08:53:40.055 [pool-1-thread-2] INFO  org.example.server.ClientHandler - Processing request: action=DASHBOARD, method=GET_STATS
+2026-06-20 08:53:40.077 [pool-1-thread-2] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 08:53:40.080 [pool-1-thread-2] INFO  org.example.dao.ProductDAO - Retrieved 8 products
+2026-06-20 08:53:40.099 [pool-1-thread-2] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 08:53:40.101 [pool-1-thread-2] INFO  org.example.dao.CustomerDAO - Retrieved 12 customers
+2026-06-20 08:53:40.121 [pool-1-thread-2] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 08:53:40.125 [pool-1-thread-2] INFO  org.example.dao.OrderDAO - Retrieved 6 orders
+2026-06-20 08:53:40.146 [pool-1-thread-2] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 08:53:40.149 [pool-1-thread-2] INFO  org.example.dao.CategoryDAO - Retrieved 4 categories
+2026-06-20 08:53:40.165 [pool-1-thread-2] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 08:53:40.170 [pool-1-thread-2] INFO  org.example.dao.OrderDAO - Retrieved 6 orders
+2026-06-20 08:53:40.171 [pool-1-thread-2] INFO  org.example.server.ServerService - Dashboard statistics retrieved
+2026-06-20 08:53:40.174 [pool-1-thread-2] INFO  org.example.server.ClientHandler - Processing request: action=PRODUCT, method=GET_ALL
+2026-06-20 08:53:40.189 [pool-1-thread-2] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 08:53:40.192 [pool-1-thread-2] INFO  org.example.dao.ProductDAO - Retrieved 8 products
+2026-06-20 08:53:42.603 [pool-1-thread-2] INFO  org.example.server.ClientHandler - Processing request: action=PRODUCT, method=GET_ALL
+2026-06-20 08:53:42.619 [pool-1-thread-2] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 08:53:42.621 [pool-1-thread-2] INFO  org.example.dao.ProductDAO - Retrieved 8 products
+2026-06-20 08:53:42.622 [pool-1-thread-2] INFO  org.example.server.ClientHandler - Processing request: action=CATEGORY, method=GET_ALL
+2026-06-20 08:53:42.638 [pool-1-thread-2] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 08:53:42.639 [pool-1-thread-2] INFO  org.example.dao.CategoryDAO - Retrieved 4 categories
+2026-06-20 08:53:50.322 [pool-1-thread-2] INFO  org.example.server.ClientHandler - Processing request: action=CATEGORY, method=GET_ALL
+2026-06-20 08:53:50.337 [pool-1-thread-2] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 08:53:50.339 [pool-1-thread-2] INFO  org.example.dao.CategoryDAO - Retrieved 4 categories
+2026-06-20 08:54:00.628 [pool-1-thread-2] INFO  org.example.server.ClientHandler - Processing request: action=CUSTOMER, method=GET_ALL
+2026-06-20 08:54:00.675 [pool-1-thread-2] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 08:54:00.678 [pool-1-thread-2] INFO  org.example.dao.CustomerDAO - Retrieved 12 customers
+2026-06-20 08:54:01.881 [pool-1-thread-2] INFO  org.example.server.ClientHandler - Processing request: action=ORDER, method=GET_ALL
+2026-06-20 08:54:01.912 [pool-1-thread-2] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 08:54:01.914 [pool-1-thread-2] INFO  org.example.dao.OrderDAO - Retrieved 6 orders
+2026-06-20 08:54:02.930 [pool-1-thread-2] INFO  org.example.server.ClientHandler - Processing request: action=CATEGORY, method=GET_ALL
+2026-06-20 08:54:02.944 [pool-1-thread-2] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 08:54:02.945 [pool-1-thread-2] INFO  org.example.dao.CategoryDAO - Retrieved 4 categories
+2026-06-20 08:54:04.188 [pool-1-thread-2] INFO  org.example.server.ClientHandler - Processing request: action=USER, method=GET_ALL
+2026-06-20 08:54:04.230 [pool-1-thread-2] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 08:54:04.232 [pool-1-thread-2] INFO  org.example.dao.UserDAO - Retrieved 4 users
+2026-06-20 08:54:06.892 [pool-1-thread-2] INFO  org.example.server.ClientHandler - Processing request: action=USER, method=GET_ALL
+2026-06-20 08:54:06.905 [pool-1-thread-2] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 08:54:06.908 [pool-1-thread-2] INFO  org.example.dao.UserDAO - Retrieved 4 users
+2026-06-20 08:54:20.144 [pool-1-thread-2] INFO  org.example.server.ClientHandler - Processing request: action=CATEGORY, method=GET_ALL
+2026-06-20 08:54:20.160 [pool-1-thread-2] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 08:54:20.162 [pool-1-thread-2] INFO  org.example.dao.CategoryDAO - Retrieved 4 categories
+2026-06-20 11:03:48.797 [pool-1-thread-2] INFO  org.example.server.ClientHandler - Processing request: action=DASHBOARD, method=GET_STATS
+2026-06-20 11:03:48.850 [pool-1-thread-2] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 11:03:48.856 [pool-1-thread-2] INFO  org.example.dao.ProductDAO - Retrieved 8 products
+2026-06-20 11:03:48.872 [pool-1-thread-2] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 11:03:48.874 [pool-1-thread-2] INFO  org.example.dao.CustomerDAO - Retrieved 12 customers
+2026-06-20 11:03:48.889 [pool-1-thread-2] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 11:03:48.892 [pool-1-thread-2] INFO  org.example.dao.OrderDAO - Retrieved 6 orders
+2026-06-20 11:03:48.905 [pool-1-thread-2] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 11:03:48.907 [pool-1-thread-2] INFO  org.example.dao.CategoryDAO - Retrieved 4 categories
+2026-06-20 11:03:48.923 [pool-1-thread-2] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 11:03:48.925 [pool-1-thread-2] INFO  org.example.dao.OrderDAO - Retrieved 6 orders
+2026-06-20 11:03:48.926 [pool-1-thread-2] INFO  org.example.server.ServerService - Dashboard statistics retrieved
+2026-06-20 11:03:48.935 [pool-1-thread-2] INFO  org.example.server.ClientHandler - Processing request: action=PRODUCT, method=GET_ALL
+2026-06-20 11:03:48.949 [pool-1-thread-2] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 11:03:48.951 [pool-1-thread-2] INFO  org.example.dao.ProductDAO - Retrieved 8 products
+2026-06-20 11:03:49.765 [pool-1-thread-2] INFO  org.example.server.ClientHandler - Processing request: action=PRODUCT, method=GET_ALL
+2026-06-20 11:03:49.781 [pool-1-thread-2] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 11:03:49.783 [pool-1-thread-2] INFO  org.example.dao.ProductDAO - Retrieved 8 products
+2026-06-20 11:03:49.784 [pool-1-thread-2] INFO  org.example.server.ClientHandler - Processing request: action=CATEGORY, method=GET_ALL
+2026-06-20 11:03:49.800 [pool-1-thread-2] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 11:03:49.801 [pool-1-thread-2] INFO  org.example.dao.CategoryDAO - Retrieved 4 categories
+2026-06-20 11:03:52.827 [pool-1-thread-2] INFO  org.example.server.ClientHandler - Client disconnected: /127.0.0.1
+2026-06-20 11:03:52.827 [pool-1-thread-2] INFO  org.example.server.ClientHandler - Client connection closed
+2026-06-20 11:03:52.826 [JavaFX Application Thread] INFO  org.example.client.NetworkClient - Disconnected from server
+2026-06-20 11:03:52.901 [main] INFO  org.example.server.Server - New client connected from /127.0.0.1
+2026-06-20 11:03:52.902 [pool-1-thread-3] INFO  org.example.server.ClientHandler - ClientHandler started for /127.0.0.1
+2026-06-20 11:03:52.902 [JavaFX Application Thread] INFO  org.example.client.NetworkClient - Connected to server at localhost:5555
+2026-06-20 11:03:52.903 [JavaFX Application Thread] INFO  org.example.client.MainController - User logged out, returned to login screen
+2026-06-20 11:40:21.552 [Thread-0] INFO  org.example.server.Server - Server shutting down...
+2026-06-20 11:40:21.556 [Thread-0] INFO  org.example.server.Server - Server shutdown complete
+2026-06-20 11:40:54.159 [main] INFO  org.example.server.Server - Server initialized on port 5555
+2026-06-20 11:40:54.161 [main] INFO  org.example.server.Server - Server starting on port 5555
+2026-06-20 11:41:01.359 [main] INFO  org.example.server.Server - New client connected from /127.0.0.1
+2026-06-20 11:41:01.376 [pool-1-thread-1] INFO  org.example.server.ClientHandler - ClientHandler started for /127.0.0.1
+2026-06-20 11:41:01.376 [JavaFX Application Thread] INFO  org.example.client.NetworkClient - Connected to server at localhost:5555
+2026-06-20 11:41:01.378 [JavaFX Application Thread] INFO  org.example.client.MainApp - Connected to server successfully
+2026-06-20 11:55:55.987 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=AUTH, method=LOGIN
+2026-06-20 11:55:56.614 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 11:55:56.695 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 11:55:56.831 [pool-1-thread-1] INFO  org.example.server.ServerService - User authenticated: admin
+2026-06-20 11:55:56.833 [pool-1-thread-1] INFO  org.example.server.ServerService - Session created for user: admin
+2026-06-20 11:55:56.834 [pool-1-thread-1] INFO  org.example.server.ClientHandler - User logged in: admin
+2026-06-20 11:55:56.840 [JavaFX Application Thread] INFO  org.example.client.ClientService - User logged in: admin
+2026-06-20 11:55:56.841 [JavaFX Application Thread] INFO  org.example.client.LoginController - Login successful for user: admin
+2026-06-20 11:55:56.902 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=DASHBOARD, method=GET_STATS
+2026-06-20 11:55:56.922 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 11:55:56.927 [pool-1-thread-1] INFO  org.example.dao.ProductDAO - Retrieved 8 products
+2026-06-20 11:55:56.948 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 11:55:56.952 [pool-1-thread-1] INFO  org.example.dao.CustomerDAO - Retrieved 12 customers
+2026-06-20 11:55:56.975 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 11:55:56.979 [pool-1-thread-1] INFO  org.example.dao.OrderDAO - Retrieved 6 orders
+2026-06-20 11:55:56.999 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 11:55:57.002 [pool-1-thread-1] INFO  org.example.dao.CategoryDAO - Retrieved 4 categories
+2026-06-20 11:55:57.018 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 11:55:57.022 [pool-1-thread-1] INFO  org.example.dao.OrderDAO - Retrieved 6 orders
+2026-06-20 11:55:57.028 [pool-1-thread-1] INFO  org.example.server.ServerService - Dashboard statistics retrieved
+2026-06-20 11:55:57.047 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=PRODUCT, method=GET_ALL
+2026-06-20 11:55:57.065 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 11:55:57.069 [pool-1-thread-1] INFO  org.example.dao.ProductDAO - Retrieved 8 products
+2026-06-20 11:56:00.986 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=PRODUCT, method=GET_ALL
+2026-06-20 11:56:00.999 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 11:56:01.017 [pool-1-thread-1] INFO  org.example.dao.ProductDAO - Retrieved 8 products
+2026-06-20 11:56:01.018 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=CATEGORY, method=GET_ALL
+2026-06-20 11:56:01.032 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 11:56:01.035 [pool-1-thread-1] INFO  org.example.dao.CategoryDAO - Retrieved 4 categories
+2026-06-20 11:56:02.327 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=CUSTOMER, method=GET_ALL
+2026-06-20 11:56:02.343 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 11:56:02.345 [pool-1-thread-1] INFO  org.example.dao.CustomerDAO - Retrieved 12 customers
+2026-06-20 11:56:03.352 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=ORDER, method=GET_ALL
+2026-06-20 11:56:03.381 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 11:56:03.385 [pool-1-thread-1] INFO  org.example.dao.OrderDAO - Retrieved 6 orders
+2026-06-20 11:56:04.498 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=CATEGORY, method=GET_ALL
+2026-06-20 11:56:04.511 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 11:56:04.513 [pool-1-thread-1] INFO  org.example.dao.CategoryDAO - Retrieved 4 categories
+2026-06-20 11:56:05.359 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=USER, method=GET_ALL
+2026-06-20 11:56:05.387 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 11:56:05.402 [pool-1-thread-1] INFO  org.example.dao.UserDAO - Retrieved 4 users
+2026-06-20 11:56:17.122 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=USER, method=GET_ALL
+2026-06-20 11:56:17.153 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 11:56:17.155 [pool-1-thread-1] INFO  org.example.dao.UserDAO - Retrieved 4 users
+2026-06-20 11:56:24.063 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=CATEGORY, method=GET_ALL
+2026-06-20 11:56:24.076 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 11:56:24.077 [pool-1-thread-1] INFO  org.example.dao.CategoryDAO - Retrieved 4 categories
+2026-06-20 11:56:49.848 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=DASHBOARD, method=GET_STATS
+2026-06-20 11:56:49.863 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 11:56:49.866 [pool-1-thread-1] INFO  org.example.dao.ProductDAO - Retrieved 8 products
+2026-06-20 11:56:49.883 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 11:56:49.887 [pool-1-thread-1] INFO  org.example.dao.CustomerDAO - Retrieved 12 customers
+2026-06-20 11:56:49.900 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 11:56:49.902 [pool-1-thread-1] INFO  org.example.dao.OrderDAO - Retrieved 6 orders
+2026-06-20 11:56:49.917 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 11:56:49.919 [pool-1-thread-1] INFO  org.example.dao.CategoryDAO - Retrieved 4 categories
+2026-06-20 11:56:49.936 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 11:56:49.937 [pool-1-thread-1] INFO  org.example.dao.OrderDAO - Retrieved 6 orders
+2026-06-20 11:56:49.937 [pool-1-thread-1] INFO  org.example.server.ServerService - Dashboard statistics retrieved
+2026-06-20 11:56:49.940 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=PRODUCT, method=GET_ALL
+2026-06-20 11:56:49.956 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 11:56:49.960 [pool-1-thread-1] INFO  org.example.dao.ProductDAO - Retrieved 8 products
+2026-06-20 11:57:11.515 [JavaFX Application Thread] INFO  org.example.client.NetworkClient - Disconnected from server
+2026-06-20 11:57:11.516 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Client disconnected: /127.0.0.1
+2026-06-20 11:57:11.517 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Client connection closed
+2026-06-20 11:57:11.555 [main] INFO  org.example.server.Server - New client connected from /127.0.0.1
+2026-06-20 11:57:11.557 [pool-1-thread-2] INFO  org.example.server.ClientHandler - ClientHandler started for /127.0.0.1
+2026-06-20 11:57:11.557 [JavaFX Application Thread] INFO  org.example.client.NetworkClient - Connected to server at localhost:5555
+2026-06-20 11:57:11.557 [JavaFX Application Thread] INFO  org.example.client.MainController - User logged out, returned to login screen
+2026-06-20 11:57:25.010 [pool-1-thread-2] INFO  org.example.server.ClientHandler - Processing request: action=AUTH, method=LOGIN
+2026-06-20 11:57:25.026 [pool-1-thread-2] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 11:57:25.130 [pool-1-thread-2] WARN  org.example.dao.UserDAO - Authentication failed for user: user
+2026-06-20 11:57:25.130 [pool-1-thread-2] WARN  org.example.server.ClientHandler - Failed login attempt for: user
+2026-06-20 11:57:25.131 [JavaFX Application Thread] WARN  org.example.client.ClientService - Login failed: Invalid username or password
+2026-06-20 11:57:31.045 [pool-1-thread-2] INFO  org.example.server.ClientHandler - Processing request: action=AUTH, method=LOGIN
+2026-06-20 11:57:31.059 [pool-1-thread-2] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 11:57:31.180 [pool-1-thread-2] INFO  org.example.server.ServerService - User authenticated: user
+2026-06-20 11:57:31.180 [pool-1-thread-2] INFO  org.example.server.ServerService - Session created for user: user
+2026-06-20 11:57:31.180 [pool-1-thread-2] INFO  org.example.server.ClientHandler - User logged in: user
+2026-06-20 11:57:31.181 [JavaFX Application Thread] INFO  org.example.client.ClientService - User logged in: user
+2026-06-20 11:57:31.181 [JavaFX Application Thread] INFO  org.example.client.LoginController - Login successful for user: user
+2026-06-20 11:57:31.190 [pool-1-thread-2] INFO  org.example.server.ClientHandler - Processing request: action=CUSTOMER, method=GET_ALL
+2026-06-20 11:57:31.202 [pool-1-thread-2] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 11:57:31.217 [pool-1-thread-2] INFO  org.example.dao.CustomerDAO - Retrieved 12 customers
+2026-06-20 11:57:31.220 [pool-1-thread-2] INFO  org.example.server.ClientHandler - Processing request: action=PRODUCT, method=GET_ALL
+2026-06-20 11:57:31.234 [pool-1-thread-2] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 11:57:31.237 [pool-1-thread-2] INFO  org.example.dao.ProductDAO - Retrieved 8 products
+2026-06-20 11:57:57.873 [pool-1-thread-2] INFO  org.example.server.ClientHandler - Processing request: action=ORDER, method=GET_ALL
+2026-06-20 11:57:57.896 [pool-1-thread-2] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 11:57:57.897 [pool-1-thread-2] INFO  org.example.dao.OrderDAO - Retrieved 6 orders
+2026-06-20 11:58:00.913 [pool-1-thread-2] INFO  org.example.server.ClientHandler - Processing request: action=ORDER, method=GET_DETAILS
+2026-06-20 11:58:00.927 [pool-1-thread-2] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 12:10:20.720 [Thread-0] INFO  org.example.server.Server - Server shutting down...
+2026-06-20 12:10:20.721 [Thread-0] INFO  org.example.server.Server - Server shutdown complete
+2026-06-20 12:38:05.481 [JavaFX Application Thread] ERROR org.example.client.NetworkClient - Failed to connect to server
+java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:601)
+	at java.base/sun.nio.ch.Net.connect(Net.java:590)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at java.base/java.net.Socket.connect(Socket.java:686)
+	at java.base/java.net.Socket.<init>(Socket.java:555)
+	at java.base/java.net.Socket.<init>(Socket.java:324)
+	at org.example.client.NetworkClient.connect(NetworkClient.java:39)
+	at org.example.client.MainApp.connectToServer(MainApp.java:36)
+	at org.example.client.MainApp.start(MainApp.java:18)
+	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$9(LauncherImpl.java:839)
+	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$12(PlatformImpl.java:483)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:456)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:455)
+	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:185)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-06-20 12:38:05.484 [JavaFX Application Thread] ERROR org.example.client.MainApp - Failed to connect to server
+2026-06-20 12:38:05.484 [JavaFX Application Thread] ERROR org.example.client.MainApp - Cannot connect to server. Exiting...
+2026-06-20 12:38:22.623 [main] INFO  org.example.server.Server - Server initialized on port 5555
+2026-06-20 12:38:22.627 [main] INFO  org.example.server.Server - Server starting on port 5555
+2026-06-20 12:38:29.038 [main] INFO  org.example.server.Server - New client connected from /127.0.0.1
+2026-06-20 12:38:29.056 [pool-1-thread-1] INFO  org.example.server.ClientHandler - ClientHandler started for /127.0.0.1
+2026-06-20 12:38:29.057 [JavaFX Application Thread] INFO  org.example.client.NetworkClient - Connected to server at localhost:5555
+2026-06-20 12:38:29.058 [JavaFX Application Thread] INFO  org.example.client.MainApp - Connected to server successfully
+2026-06-20 12:38:38.509 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=AUTH, method=LOGIN
+2026-06-20 12:38:39.273 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 12:38:39.424 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 12:38:39.640 [pool-1-thread-1] INFO  org.example.server.ServerService - User authenticated: admin
+2026-06-20 12:38:39.643 [pool-1-thread-1] INFO  org.example.server.ServerService - Session created for user: admin
+2026-06-20 12:38:39.643 [pool-1-thread-1] INFO  org.example.server.ClientHandler - User logged in: admin
+2026-06-20 12:38:39.675 [JavaFX Application Thread] INFO  org.example.client.ClientService - User logged in: admin
+2026-06-20 12:38:39.677 [JavaFX Application Thread] INFO  o.example.controller.LoginController - Login successful for user: admin
+2026-06-20 12:38:40.025 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=DASHBOARD, method=GET_STATS
+2026-06-20 12:38:40.047 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 12:38:40.101 [pool-1-thread-1] INFO  org.example.dao.ProductDAO - Retrieved 8 products
+2026-06-20 12:38:40.122 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 12:38:40.142 [pool-1-thread-1] INFO  org.example.dao.CustomerDAO - Retrieved 12 customers
+2026-06-20 12:38:40.163 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 12:38:40.180 [pool-1-thread-1] INFO  org.example.dao.OrderDAO - Retrieved 6 orders
+2026-06-20 12:38:40.210 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 12:38:40.214 [pool-1-thread-1] INFO  org.example.dao.CategoryDAO - Retrieved 4 categories
+2026-06-20 12:38:40.231 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 12:38:40.233 [pool-1-thread-1] INFO  org.example.dao.OrderDAO - Retrieved 6 orders
+2026-06-20 12:38:40.240 [pool-1-thread-1] INFO  org.example.server.ServerService - Dashboard statistics retrieved
+2026-06-20 12:38:40.254 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=PRODUCT, method=GET_ALL
+2026-06-20 12:38:40.268 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 12:38:40.271 [pool-1-thread-1] INFO  org.example.dao.ProductDAO - Retrieved 8 products
+2026-06-20 12:38:42.571 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=PRODUCT, method=GET_ALL
+2026-06-20 12:38:42.589 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 12:38:42.591 [pool-1-thread-1] INFO  org.example.dao.ProductDAO - Retrieved 8 products
+2026-06-20 12:38:42.593 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=CATEGORY, method=GET_ALL
+2026-06-20 12:38:42.608 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 12:38:42.610 [pool-1-thread-1] INFO  org.example.dao.CategoryDAO - Retrieved 4 categories
+2026-06-20 12:38:44.000 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=CUSTOMER, method=GET_ALL
+2026-06-20 12:38:44.027 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 12:38:44.031 [pool-1-thread-1] INFO  org.example.dao.CustomerDAO - Retrieved 12 customers
+2026-06-20 12:38:48.093 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=PRODUCT, method=GET_ALL
+2026-06-20 12:38:48.108 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 12:38:48.110 [pool-1-thread-1] INFO  org.example.dao.ProductDAO - Retrieved 8 products
+2026-06-20 12:38:48.112 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Processing request: action=CATEGORY, method=GET_ALL
+2026-06-20 12:38:48.128 [pool-1-thread-1] INFO  org.example.database.DatabaseUtil - Database connection established successfully
+2026-06-20 12:38:48.130 [pool-1-thread-1] INFO  org.example.dao.CategoryDAO - Retrieved 4 categories
+2026-06-20 12:38:58.617 [pool-1-thread-1] ERROR org.example.server.ClientHandler - IO Error handling client
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:318)
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:346)
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:796)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1099)
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:1093)
+	at java.base/java.io.ObjectInputStream$PeekInputStream.peek(ObjectInputStream.java:2893)
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.peek(ObjectInputStream.java:3220)
+	at java.base/java.io.ObjectInputStream$BlockDataInputStream.peekByte(ObjectInputStream.java:3230)
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1713)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:540)
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:498)
+	at org.example.server.ClientHandler.run(ClientHandler.java:36)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-06-20 12:38:58.621 [pool-1-thread-1] INFO  org.example.server.ClientHandler - Client connection closed
+2026-06-20 12:39:05.283 [Thread-0] INFO  org.example.server.Server - Server shutting down...
+2026-06-20 12:39:05.283 [Thread-0] INFO  org.example.server.Server - Server shutdown complete
+2026-06-20 12:39:05.283 [main] INFO  org.example.server.Server - Server shutting down...
+2026-06-20 12:39:05.283 [main] INFO  org.example.server.Server - Server shutdown complete
